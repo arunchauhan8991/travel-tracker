@@ -91,9 +91,6 @@ FROM enrollment e
 JOIN student s ON s.id = e.student_id
 JOIN class c ON c.id = e.class_id;
 
-
--- EXERCISE SOLUTION AND SETUP --
-
 DROP TABLE IF EXISTS visited_countries, users;
 
 CREATE TABLE users(
